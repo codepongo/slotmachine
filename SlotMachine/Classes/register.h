@@ -9,8 +9,20 @@
 #import <UIKit/UIKit.h>
 
 
-@interface register : UIViewController {
+@interface Register : UIViewController {
+	UILabel* level;
+	UISlider* levelChooser;
+	UITextField* user;
 
 }
+
+@property (nonatomic, retain) IBOutlet UILabel* level;
+@property (nonatomic, retain) IBOutlet UISlider* levelChooser;
+@property (nonatomic, retain) IBOutlet UITextField* user;
+- (IBAction)enter:(id)sender;
+
+- (IBAction)levelChanged:(id)sender;
+
+- (IBAction)popKeyboard:(id)sender;
 
 @end

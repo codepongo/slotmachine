@@ -11,7 +11,8 @@
 @implementation SlotMachineAppDelegate
 
 @synthesize window;
-
+@synthesize nav;
+@synthesize reg;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -19,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
+	
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -13,9 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		FAC17E191B9B18C600F15B2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E181B9B18C600F15B2B /* icon.png */; };
-		FAC17E251B9B1AAB00F15B2B /* register.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17E231B9B1AAB00F15B2B /* register.m */; };
-		FAC17E261B9B1AAB00F15B2B /* register.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E241B9B1AAB00F15B2B /* register.xib */; };
+		FAC17E251B9B1AAB00F15B2B /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17E231B9B1AAB00F15B2B /* Register.m */; };
+		FAC17E261B9B1AAB00F15B2B /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E241B9B1AAB00F15B2B /* Register.xib */; };
+		FAC17E3C1B9E317200F15B2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E3B1B9E317200F15B2B /* icon.png */; };
+		FAC17E621B9E341C00F15B2B /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E611B9E341C00F15B2B /* banner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +30,11 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SlotMachine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachine_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SlotMachine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SlotMachine-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		FAC17E181B9B18C600F15B2B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		FAC17E221B9B1AAB00F15B2B /* register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = register.h; sourceTree = "<group>"; };
-		FAC17E231B9B1AAB00F15B2B /* register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = register.m; sourceTree = "<group>"; };
-		FAC17E241B9B1AAB00F15B2B /* register.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = register.xib; path = Classes/register.xib; sourceTree = "<group>"; };
+		FAC17E221B9B1AAB00F15B2B /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		FAC17E231B9B1AAB00F15B2B /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		FAC17E241B9B1AAB00F15B2B /* Register.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Register.xib; path = Classes/Register.xib; sourceTree = "<group>"; };
+		FAC17E3B1B9E317200F15B2B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FAC17E611B9E341C00F15B2B /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,8 @@
 			children = (
 				1D3623240D0F684500981E51 /* SlotMachineAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SlotMachineAppDelegate.m */,
-				FAC17E221B9B1AAB00F15B2B /* register.h */,
-				FAC17E231B9B1AAB00F15B2B /* register.m */,
+				FAC17E221B9B1AAB00F15B2B /* Register.h */,
+				FAC17E231B9B1AAB00F15B2B /* Register.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -92,8 +94,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FAC17E241B9B1AAB00F15B2B /* register.xib */,
-				FAC17E181B9B18C600F15B2B /* icon.png */,
+				FAC17E611B9E341C00F15B2B /* banner.jpg */,
+				FAC17E3B1B9E317200F15B2B /* icon.png */,
+				FAC17E241B9B1AAB00F15B2B /* Register.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SlotMachine-Info.plist */,
 			);
@@ -160,8 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				FAC17E191B9B18C600F15B2B /* icon.png in Resources */,
-				FAC17E261B9B1AAB00F15B2B /* register.xib in Resources */,
+				FAC17E261B9B1AAB00F15B2B /* Register.xib in Resources */,
+				FAC17E3C1B9E317200F15B2B /* icon.png in Resources */,
+				FAC17E621B9E341C00F15B2B /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +178,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SlotMachineAppDelegate.m in Sources */,
-				FAC17E251B9B1AAB00F15B2B /* register.m in Sources */,
+				FAC17E251B9B1AAB00F15B2B /* Register.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

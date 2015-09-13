@@ -6,11 +6,24 @@
 //  Copyright 2015 codepongo.com. All rights reserved.
 //
 
-#import "register.h"
+#import "Register.h"
 
 
-@implementation register
+@implementation Register
 
+@synthesize level;
+@synthesize levelChooser;
+
+-(IBAction)enter:(id)sender {
+}
+
+-(IBAction)levelChanged:(id)sender {
+	level.text = [NSString stringWithFormat:@"%.0f", levelChooser.value];
+}
+
+-(IBAction)popKeyboard:(id)sender {
+	[user resignFirstResponder];
+}
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
