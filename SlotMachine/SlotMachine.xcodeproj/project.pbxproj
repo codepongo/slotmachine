@@ -17,6 +17,9 @@
 		FAC17E261B9B1AAB00F15B2B /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E241B9B1AAB00F15B2B /* Register.xib */; };
 		FAC17E3C1B9E317200F15B2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E3B1B9E317200F15B2B /* icon.png */; };
 		FAC17E621B9E341C00F15B2B /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC17E611B9E341C00F15B2B /* banner.jpg */; };
+		FAC17F481BA85A1800F15B2B /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17F471BA85A1800F15B2B /* SwitchViewController.m */; };
+		FAC17F511BA85D6B00F15B2B /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17F4F1BA85D6B00F15B2B /* Game.m */; };
+		FAC17F521BA85D6B00F15B2B /* Game.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17F501BA85D6B00F15B2B /* Game.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,11 @@
 		FAC17E241B9B1AAB00F15B2B /* Register.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Register.xib; path = Classes/Register.xib; sourceTree = "<group>"; };
 		FAC17E3B1B9E317200F15B2B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		FAC17E611B9E341C00F15B2B /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		FAC17F461BA85A1800F15B2B /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchViewController.h; path = ../SwitchViewController.h; sourceTree = "<group>"; };
+		FAC17F471BA85A1800F15B2B /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchViewController.m; path = ../SwitchViewController.m; sourceTree = "<group>"; };
+		FAC17F4E1BA85D6B00F15B2B /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		FAC17F4F1BA85D6B00F15B2B /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		FAC17F501BA85D6B00F15B2B /* Game.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Game.xib; path = Classes/Game.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FAC17F4E1BA85D6B00F15B2B /* Game.h */,
+				FAC17F4F1BA85D6B00F15B2B /* Game.m */,
+				FAC17F461BA85A1800F15B2B /* SwitchViewController.h */,
+				FAC17F471BA85A1800F15B2B /* SwitchViewController.m */,
 				1D3623240D0F684500981E51 /* SlotMachineAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SlotMachineAppDelegate.m */,
 				FAC17E221B9B1AAB00F15B2B /* Register.h */,
@@ -94,6 +106,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAC17F501BA85D6B00F15B2B /* Game.xib */,
 				FAC17E611B9E341C00F15B2B /* banner.jpg */,
 				FAC17E3B1B9E317200F15B2B /* icon.png */,
 				FAC17E241B9B1AAB00F15B2B /* Register.xib */,
@@ -166,6 +179,7 @@
 				FAC17E261B9B1AAB00F15B2B /* Register.xib in Resources */,
 				FAC17E3C1B9E317200F15B2B /* icon.png in Resources */,
 				FAC17E621B9E341C00F15B2B /* banner.jpg in Resources */,
+				FAC17F521BA85D6B00F15B2B /* Game.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +193,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SlotMachineAppDelegate.m in Sources */,
 				FAC17E251B9B1AAB00F15B2B /* Register.m in Sources */,
+				FAC17F481BA85A1800F15B2B /* SwitchViewController.m in Sources */,
+				FAC17F511BA85D6B00F15B2B /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
